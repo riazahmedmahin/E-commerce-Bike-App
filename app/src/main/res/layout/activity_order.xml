@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral_variant10"
+    tools:context=".order">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/heading"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Bike BD"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/baseline_directions_bike_24"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/heading"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:id="@+id/title"
+        android:background="@drawable/input_bg"
+
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        />
+
+
+
+
+
+
+    <!--
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Doctor List"
+          android:layout_centerHorizontal="true"
+          android:layout_marginTop="80dp"
+          android:textSize="25dp"
+          android:textStyle="bold"
+          android:textColor="@color/white"
+          android:background="@drawable/input_bg"
+          android:paddingRight="10dp"
+          android:paddingLeft="10dp"
+          android:drawableLeft="@drawable/ic_baseline_person_24"
+          android:id="@+id/dcdetails"/>
+          -->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="760dp"
+        android:background="@drawable/input_bg"
+        android:text="back"
+        android:drawableLeft="@drawable/baseline_back"
+        android:id="@+id/token4"/>
+    <!--
+        <ListView
+            android:layout_width="450dp"
+            android:layout_height="500dp"
+            android:layout_margin="10dp"
+            android:layout_below="@id/dcdetails"
+            android:id="@+id/list"
+
+
+            />
+            -->
+    <ScrollView
+        android:layout_marginTop="130dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/scrollView"
+            android:layout_margin="5dp"
+            android:columnCount="1"
+            android:id="@+id/grid">
+
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_rowWeight="0"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                app:cardBackgroundColor="@color/material_dynamic_neutral20"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="13dp"
+                app:cardUseCompatPadding="true"
+                android:layout_below="@id/title"
+
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Md. Rihanul kabir  "
+                       android:layout_marginLeft="8dp"
+                       android:textSize="23dp"
+                       android:textStyle="bold"
+                       android:textColor="@color/white"
+                       />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="The Suzuki Gixxer FI ABS has a very
+                         responsive engine as well, however, compared
+                          to the previous version"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Review: ⭐ ⭐ ⭐ ⭐ ⭐"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/ic_launcher_background"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:layout_rowWeight="0"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                app:cardBackgroundColor="@color/material_dynamic_neutral20"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="13dp"
+                app:cardUseCompatPadding="true"
+                android:layout_below="@id/title"
+
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mizanur Rahman   "
+                        android:layout_marginLeft="8dp"
+                        android:textSize="23dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="My Yamaha R15 V3 Bs6 is still going through a break-in. I am riding the bike properly according to the break-in period"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Review: ⭐ ⭐ ⭐ ⭐"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/ic_launcher_background"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="4"
+                android:layout_rowWeight="0"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                app:cardBackgroundColor="@color/material_dynamic_neutral20"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="13dp"
+                app:cardUseCompatPadding="true"
+                android:layout_below="@id/title"
+
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mamunul Jisan  "
+                        android:layout_marginLeft="8dp"
+                        android:textSize="23dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="I chose my Yamaha R15 V3 Indonesian version after considering all sorts of trivial issues starting
+                        from the reviews of the long-time senior brothers."
+                        android:layout_marginLeft="8dp"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Review: ⭐ ⭐ ⭐ ⭐ ⭐"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/ic_launcher_background"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="5"
+                android:layout_rowWeight="0"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                app:cardBackgroundColor="@color/material_dynamic_neutral20"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="13dp"
+                app:cardUseCompatPadding="true"
+                android:layout_below="@id/title"
+
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Ariful Islam   "
+                        android:layout_marginLeft="8dp"
+                        android:textSize="23dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Today I am going to share with you my experience with my used bike TVS Apache RTR 160 4V Dual
+                        Disc. I learned riding with Bajaj Discover 135."
+                        android:layout_marginLeft="8dp"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Review: ⭐ ⭐ ⭐ ⭐"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/ic_launcher_background"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="6"
+                android:layout_rowWeight="0"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                app:cardBackgroundColor="@color/material_dynamic_neutral20"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="13dp"
+                app:cardUseCompatPadding="true"
+                android:layout_below="@id/title"
+
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Irfan Sajjad  "
+                        android:layout_marginLeft="8dp"
+                        android:textSize="23dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="The Suzuki Gixxer FI ABS has a very
+                         responsive engine as well, however, compared
+                          to the previous version"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Review: ⭐ ⭐ ⭐ ⭐"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/ic_launcher_background"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="7"
+                android:layout_rowWeight="0"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                app:cardBackgroundColor="@color/material_dynamic_neutral20"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="13dp"
+                app:cardUseCompatPadding="true"
+                android:layout_below="@id/title"
+
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rakib Hasan  "
+                        android:layout_marginLeft="8dp"
+                        android:textSize="23dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="And today I would like to share some experiences of my 3000 km ride with my favorite bike the Suzuki Gixxer 155 SD (Single Disc)"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Review: ⭐ ⭐ ⭐ ⭐"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/ic_launcher_background"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="8"
+                android:layout_rowWeight="0"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                app:cardBackgroundColor="@color/material_dynamic_neutral20"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="13dp"
+                app:cardUseCompatPadding="true"
+                android:layout_below="@id/title"
+
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Imran Hossain  "
+                        android:layout_marginLeft="8dp"
+                        android:textSize="23dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Now I will share with you some things after riding 2,000 km with my used Honda Livo 110cc 2019 model bike"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Review: ⭐ ⭐ ⭐ ⭐"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/ic_launcher_background"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="9"
+                android:layout_rowWeight="0"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                app:cardBackgroundColor="@color/material_dynamic_neutral20"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="13dp"
+                app:cardUseCompatPadding="true"
+                android:layout_below="@id/title"
+
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Saimon Islam  "
+                        android:layout_marginLeft="8dp"
+                        android:textSize="23dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="The Suzuki Gixxer FI ABS has a very
+                         responsive engine as well, however, compared
+                          to the previous version"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Review: ⭐ ⭐ ⭐ ⭐"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/ic_launcher_background"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_row="10"
+                android:layout_rowWeight="0"
+                android:layout_column="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                app:cardBackgroundColor="@color/material_dynamic_neutral20"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="13dp"
+                app:cardUseCompatPadding="true"
+                android:layout_below="@id/title"
+
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tarekul Kabir  "
+                        android:layout_marginLeft="8dp"
+                        android:textSize="23dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=" Now I will share with you some things after riding 2,000 km with my used Honda Livo
+                         110cc 2019 model bike"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/white"
+                        />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Review: ⭐ ⭐ ⭐ ⭐"
+                        android:layout_marginLeft="8dp"
+                        android:textSize="20dp"
+                        android:textColor="@color/ic_launcher_background"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/card10"
+                android:layout_row="11"
+                android:layout_column="0"
+                android:layout_rowWeight="0"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                app:cardBackgroundColor="@color/teal_200"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="8dp"
+                app:cardUseCompatPadding="true"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </GridLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

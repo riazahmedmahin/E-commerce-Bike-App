@@ -15,6 +15,12 @@
         android:theme="@style/Theme.Test"
         tools:targetApi="31">
         <activity
+            android:name=".others"
+            android:exported="false" />
+        <activity
+            android:name=".glabs"
+            android:exported="false" />
+        <activity
             android:name=".order"
             android:exported="false" />
         <activity

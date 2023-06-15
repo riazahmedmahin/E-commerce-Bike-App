@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".accoseries">
+    tools:context=".glabs">
+
 
 
 
@@ -12,8 +13,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/heading"/>
-
-
 
 
     <TextView
@@ -25,13 +24,11 @@
         android:id="@+id/bc"
         />
 
-
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="  Bike BD"
-        android:textColor="@color/white"
+        android:textColor="@color/ic_launcher_background"
         android:drawableLeft="@drawable/baseline_directions_bike_24"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/heading"
@@ -76,8 +73,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="        Helmet"
-
+                android:text="  Hand Gloves "
                 android:textSize="30dp"
                 android:textColor="@color/black"
                 android:drawableLeft="@drawable/baseline_directions_bike_24"
@@ -149,8 +145,8 @@
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 app:cardBackgroundColor="@color/ic_launcher_background"
-                app:cardCornerRadius="28dp"
-                app:cardElevation="28dp"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="18dp"
                 app:cardUseCompatPadding="true"
 
 
@@ -165,39 +161,29 @@
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="BBJZQ  4XL "
+                        android:text="SUPERNATURAL GLOVE "
                         android:textAlignment="center"
                         android:textStyle="bold"
                         android:textColor="@color/black"
                         android:paddingTop="10dp"
-                        android:textSize="25dp"/>
+                        android:textSize="20dp"/>
 
 
                     <ImageView
                         android:layout_width="wrap_content"
-                        android:layout_height="250dp"
-                        android:src="@drawable/hamlet1"
+                        android:layout_height="300dp"
+                        android:src="@drawable/gol1"
                         />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="BBJZQ Full Face Motorbike Helmet 4XL"
-                        android:layout_marginLeft="5dp"
+                        android:text="1200 TK"
+
                         android:textStyle="bold"
                         android:textColor="@color/black"
                         android:paddingBottom="10dp"
                         android:textSize="20dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="5000.00 TK"
-                        android:layout_marginLeft="5dp"
-                        android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:paddingBottom="10dp"
-                        android:textSize="30dp"/>
-
 
 
                 </LinearLayout>
@@ -216,8 +202,8 @@
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 app:cardBackgroundColor="@color/ic_launcher_background"
-                app:cardCornerRadius="28dp"
-                app:cardElevation="28dp"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="18dp"
                 app:cardUseCompatPadding="true"
 
 
@@ -229,46 +215,33 @@
                     android:orientation="vertical">
 
 
-
-
-
-
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Thor Reflex Theory MIPS "
+                        android:text="R 15M V4 "
                         android:textAlignment="center"
                         android:textStyle="bold"
                         android:textColor="@color/black"
                         android:paddingTop="10dp"
-                        android:textSize="25dp"/>
+                        android:textSize="20dp"/>
 
 
                     <ImageView
                         android:layout_width="wrap_content"
-                        android:layout_height="300dp"
-                        android:src="@drawable/helmet2"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ya3"
                         />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Thor Reflex Theory MIPS Helmet is a product of Thor Helmets  maximised by Koroyd inherent properties
-MIPS protectio"
-                        android:layout_marginLeft="5dp"
+                        android:text="350000 tk"
+
                         android:textStyle="bold"
                         android:textColor="@color/black"
                         android:paddingBottom="10dp"
                         android:textSize="20dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="5000.00 TK"
-                        android:layout_marginLeft="5dp"
-                        android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:paddingBottom="10dp"
-                        android:textSize="30dp"/>
+
 
 
                 </LinearLayout>
@@ -302,51 +275,30 @@ MIPS protectio"
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Thor Youth Sector MIPS "
+                        android:text="R 15M V4 "
                         android:textAlignment="center"
                         android:textStyle="bold"
                         android:textColor="@color/black"
                         android:paddingTop="10dp"
                         android:textSize="20dp"/>
-
-
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Thor Reflex Theory MIPS "
-                        android:textAlignment="center"
-                        android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:paddingTop="10dp"
-                        android:textSize="25dp"/>
 
 
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="300dp"
-                        android:src="@drawable/hel3"
+                        android:src="@drawable/up2"
+                        android:paddingLeft="20dp"
                         />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Thor Reflex Theory MIPS Helmet is a product of Thor Helmets  maximised by Koroyd inherent properties
-MIPS protectio"
-                        android:layout_marginLeft="5dp"
+                        android:text="350000 tk"
+
                         android:textStyle="bold"
                         android:textColor="@color/black"
                         android:paddingBottom="10dp"
                         android:textSize="20dp"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="5000.00 TK"
-                        android:layout_marginLeft="5dp"
-                        android:textStyle="bold"
-                        android:textColor="@color/black"
-                        android:paddingBottom="10dp"
-                        android:textSize="30dp"/>
 
 
                 </LinearLayout>
@@ -851,5 +803,11 @@ MIPS protectio"
         app:itemTextColor="@color/white"
         app:menu="@menu/menu_item"
         />
+
+
+
+
+
+
 
 </RelativeLayout>

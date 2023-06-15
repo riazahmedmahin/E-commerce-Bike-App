@@ -4,39 +4,29 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.FrameLayout;
-import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.google.android.material.bottomnavigation.BottomNavigationView;
-
-public class accoseries extends AppCompatActivity {
-
-   BottomNavigationView bottomNavigationView;
-   TextView textView;
-   FrameLayout frameLayout;
-
+public class others extends AppCompatActivity {
 
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_accoseries);
+        setContentView(R.layout.activity_others);
 
-        View item = findViewById(R.id.nativation_glabs);
-        TextView ba = findViewById( R.id.bc);
+        View item1 = findViewById(R.id.nativation_home);
+        View item2 = findViewById(R.id.nativation_glabs);
 
-
-        ba.setOnClickListener(new View.OnClickListener() {
+        item1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                Intent intent = new Intent(getApplicationContext(), accoseries.class);
                 startActivity(intent);
             }
         });
 
-        item.setOnClickListener(new View.OnClickListener() {
+        item2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), glabs.class);
@@ -44,7 +34,5 @@ public class accoseries extends AppCompatActivity {
             }
         });
 
-
-
     }
-    }
+}

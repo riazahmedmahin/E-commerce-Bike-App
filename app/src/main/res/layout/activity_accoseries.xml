@@ -19,12 +19,13 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:drawableLeft="@drawable/baseline_back"
-        android:layout_marginRight="50dp"
+        android:drawableLeft="@drawable/baseline_arrow_back_ios_24"
+
+        android:layout_marginLeft="20dp"
         android:textSize="50dp"
         android:id="@+id/bc"
+        android:textColor="@color/white"
         />
-
 
 
     <TextView
@@ -149,8 +150,8 @@
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 app:cardBackgroundColor="@color/ic_launcher_background"
-                app:cardCornerRadius="28dp"
-                app:cardElevation="28dp"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="18dp"
                 app:cardUseCompatPadding="true"
 
 
@@ -216,8 +217,8 @@
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 app:cardBackgroundColor="@color/ic_launcher_background"
-                app:cardCornerRadius="28dp"
-                app:cardElevation="28dp"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="18dp"
                 app:cardUseCompatPadding="true"
 
 
@@ -288,8 +289,8 @@ MIPS protectio"
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 app:cardBackgroundColor="@color/ic_launcher_background"
-                app:cardCornerRadius="28dp"
-                app:cardElevation="28dp"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="18dp"
                 app:cardUseCompatPadding="true"
                 >
                 <LinearLayout
@@ -367,8 +368,8 @@ MIPS protectio"
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 app:cardBackgroundColor="@color/ic_launcher_background"
-                app:cardCornerRadius="28dp"
-                app:cardElevation="28dp"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="18dp"
                 app:cardUseCompatPadding="true"
                 >
                 <LinearLayout
@@ -423,8 +424,8 @@ MIPS protectio"
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 app:cardBackgroundColor="@color/ic_launcher_background"
-                app:cardCornerRadius="28dp"
-                app:cardElevation="28dp"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="18dp"
                 app:cardUseCompatPadding="true"
                 >
                 <LinearLayout
@@ -533,8 +534,8 @@ MIPS protectio"
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 app:cardBackgroundColor="@color/ic_launcher_background"
-                app:cardCornerRadius="28dp"
-                app:cardElevation="28dp"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="18dp"
                 app:cardUseCompatPadding="true"
                 >
                 <LinearLayout
@@ -589,8 +590,8 @@ MIPS protectio"
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 app:cardBackgroundColor="@color/ic_launcher_background"
-                app:cardCornerRadius="28dp"
-                app:cardElevation="28dp"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="18dp"
                 app:cardUseCompatPadding="true"
                 >
                 <LinearLayout
@@ -647,8 +648,8 @@ MIPS protectio"
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 app:cardBackgroundColor="@color/ic_launcher_background"
-                app:cardCornerRadius="28dp"
-                app:cardElevation="28dp"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="18dp"
                 app:cardUseCompatPadding="true"
                 >
                 <LinearLayout
@@ -706,8 +707,8 @@ MIPS protectio"
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 app:cardBackgroundColor="@color/ic_launcher_background"
-                app:cardCornerRadius="28dp"
-                app:cardElevation="28dp"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="18dp"
                 app:cardUseCompatPadding="true"
                 >
                 <LinearLayout
@@ -762,8 +763,8 @@ MIPS protectio"
                 android:layout_columnWeight="1"
                 android:layout_gravity="fill"
                 app:cardBackgroundColor="@color/ic_launcher_background"
-                app:cardCornerRadius="28dp"
-                app:cardElevation="28dp"
+                app:cardCornerRadius="18dp"
+                app:cardElevation="18dp"
                 app:cardUseCompatPadding="true"
                 >
                 <LinearLayout
